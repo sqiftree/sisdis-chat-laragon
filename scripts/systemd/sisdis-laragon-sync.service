@@ -1,0 +1,6 @@
+[Unit]
+Description=Sinkronkan kode Sisdis dari WSL ke Laragon
+
+[Service]
+Type=oneshot
+ExecStart=%h/SISTER/TUBES/scripts/sync-laragon.sh

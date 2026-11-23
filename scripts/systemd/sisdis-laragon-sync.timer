@@ -1,0 +1,11 @@
+[Unit]
+Description=Periksa perubahan kode Sisdis selama WSL berjalan
+
+[Timer]
+OnActiveSec=1s
+OnUnitInactiveSec=5s
+AccuracySec=1s
+Unit=sisdis-laragon-sync.service
+
+[Install]
+WantedBy=timers.target
