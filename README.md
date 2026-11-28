@@ -24,4 +24,4 @@ systemctl --user daemon-reload
 systemctl --user enable --now sisdis-laragon-sync.timer
 ```
 
-Jalankan `scripts/sync-laragon.sh` untuk sinkronisasi langsung. Cek hasil terakhir dengan `systemctl --user status sisdis-laragon-sync.service`. Klik `C:\laragon-sisdis\Mulai-Sisdis.cmd` untuk menjalankan aplikasi, lalu buka [Status Sistem lokal](http://127.0.0.1:8080/). Commit dan push ke GitHub dilakukan terpisah.
+Jalankan `scripts/sync-laragon.sh` untuk sinkronisasi langsung. Cek hasil terakhir dengan `systemctl --user status sisdis-laragon-sync.service`. Jalankan Laragon (`C:\laragon-sisdis\laragon.exe` → **Start All**), lalu buka [Status Sistem lokal](http://localhost:8080/sisdis-wa-arch/app/public/status.php). Commit dan push ke GitHub dilakukan terpisah.

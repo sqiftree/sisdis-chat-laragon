@@ -43,7 +43,8 @@
    ];
    ```
 5. Buka halaman status di browser:
-   - `http://localhost/sisdis-wa-arch/app/public/status.php` *(tambahkan `:8080` setelah `localhost` jika Apache Laragon memakai port `8080`)*.
+   - Port `8080` (seperti di Laragon Yashif): [http://localhost:8080/sisdis-wa-arch/app/public/status.php](http://localhost:8080/sisdis-wa-arch/app/public/status.php)
+   - Port `80` (default Laragon): [http://localhost/sisdis-wa-arch/app/public/status.php](http://localhost/sisdis-wa-arch/app/public/status.php)
    - Pastikan tampil **"Database terhubung"**, nama node laptop masing-masing, dan waktu WIB.
 6. **Ambil screenshot** halaman `status.php` yang menampilkan *"Database terhubung"* + nama laptopmu, lalu kirim ke grup untuk bukti integrasi multi-node.
 
